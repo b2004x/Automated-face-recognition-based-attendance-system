@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+numpy
+pillow
+opencv-python-headless
+
+onnxruntime==1.18.1
+insightface==0.7.3
+ultralytics
+
+deepface
+tf-keras
+

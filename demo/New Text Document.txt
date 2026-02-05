@@ -1,0 +1,4 @@
+uvicorn api:app --reload
+streamlit run app.py
+npm run dev
+.\face_env\Scripts\Activate.ps1

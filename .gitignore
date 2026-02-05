@@ -1,0 +1,15 @@
+# Python venv
+face_env/
+venv/
+.env/
+
+# Python virtual env (all levels)
+.venv/
+**/.venv/
+venv/
+**/venv/
+
+# Python cache
+__pycache__/
+
+retinaface-pytorch/

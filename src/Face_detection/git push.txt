@@ -1,0 +1,35 @@
+git init
+git lfs track "data/Recomended_Anime_data/raw/kaggle_recomend_data/rating.csv"
+git lfs track "model/Character_classifier/AnimeHeadDetector/head.weights"
+git lfs track "model/Character_classifier/vit_model.pth"
+git lfs track "model/Captions_and_Tagging/Model_Second_half/blip-anime/checkpoint-80000/model.safetensors"
+git lfs track "model/Captions_and_Tagging/Model_Second_half/blip-anime/checkpoint-80000/optimizer.pt"
+git lfs track "model/Captions_and_Tagging/Model_Second_half/blip-anime-half2-final/model.safetensors"
+git lfs track "model/Captions_and_Tagging/Tagging model/model_danboruu_resnet50_finetuned.pth"
+git lfs track "model/Captions_and_Tagging/Tagging model/model_resnet50_finetuned.pth"
+git lfs track "model/Captions_and_Tagging/Tagging model/model_resnet152_finetuned_second_half.pth"
+git lfs track "model/Character_classifier/resnet50_finetuned.pth"
+git add .gitattributes
+git add .
+git commit -m "Add entire folder with LFS"
+git push
+
+
+
+
+git add "data/Recomended_Anime_data/raw/kaggle_recomend_data/rating.csv"
+git add  "model/Character_classifier/AnimeHeadDetector/head.weights"
+git add  "model/Character_classifier/vit_model.pth"
+git add  "model/Captions_and_Tagging/Model_Second_half/blip-anime/checkpoint-80000/model.safetensors"
+git add  "model/Captions_and_Tagging/Model_Second_half/blip-anime/checkpoint-80000/optimizer.pt"
+git add  "model/Captions_and_Tagging/Model_Second_half/blip-anime-half2-final/model.safetensors"
+git add  "model/Captions_and_Tagging/Tagging model/model_danboruu_resnet50_finetuned.pth"
+git add  "model/Captions_and_Tagging/Tagging model/model_resnet50_finetuned.pth"
+git add  "model/Captions_and_Tagging/Tagging model/model_resnet152_finetuned_second_half.pth"
+git add  "model/Character_classifier/resnet50_finetuned.pth"
+
+
+
+
+
+

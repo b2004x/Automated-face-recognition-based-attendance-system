@@ -1,0 +1,2 @@
+cd G:\hoc\private\Face_detection\retinaface-pytorch
+python detect.py -n resnet34 -w G:\hoc\private\Face_detection\model\Face_detection\resnet34_final.pth -s --image-path G:\hoc\private\Face_detection\test\Brad_Pitt_2019_by_Glenn_Francis.jpg
