@@ -72,7 +72,7 @@ data/
 - **YOLOv12n (Face Detection): A lightweight and fast deep-learning model used to accurately detect human faces in real time from camera input.**
 - **DeepFace (Anti-Spoofing): Used to detect spoofing attempts such as photos or videos by analyzing facial texture and liveness features.**
 - **InsightFace (Face Embedding): Generates highly discriminative facial embeddings that represent unique facial features for accurate face recognition and matching.**
-
+- **RetinaFace: A deep-learning–based face detection model that accurately detects faces and facial landmarks (eyes, nose, mouth) in real time, enabling precise face cropping and alignment for reliable face registration and attendance marking.**
 
 ### Custom modules include:
 - **db_connect, now_vn, init_db**
@@ -215,4 +215,5 @@ docker compuse up
 - **https://github.com/deepinsight/insightface**
 - **https://github.com/akanametov/yolo-face**
 - **https://github.com/serengil/deepface**
+
 - **https://github.com/serengil/retinaface**
